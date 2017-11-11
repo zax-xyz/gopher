@@ -7,11 +7,11 @@ body {
     margin-left:45px;
     text-decoration: none;
     color:white;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 #button:hover {
-    text-shadow:0px 0px 5px rgba(255, 255, 255, 0.8);
+    text-shadow:0px 0px 5px rgba(255, 255, 255, 0.7);
 }
 
 #link {
@@ -19,11 +19,11 @@ body {
     color:#000000;
     font-weight:bold;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
-    -webkit-transition: border 250ms ease;
-    -moz-transition: border 250ms ease;
-    -ms-transition: border 250ms ease;
-    -o-transition: border 250ms ease;
-    transition: border 250ms ease; 
+    -webkit-transition: border 150ms ease;
+    -moz-transition: border 150ms ease;
+    -ms-transition: border 150ms ease;
+    -o-transition: border 150ms ease;
+    transition: border 150ms ease; 
 }
 
 #link:hover {
@@ -37,7 +37,7 @@ body {
     width:100%;
     background:#333;
     padding:20px;
-    box-shadow:0px 0px 10px grey;
+    box-shadow:0px 0px 10px black;
 }
 
 #header_text{
@@ -52,7 +52,7 @@ body {
     color:#CCC;
     background:#333;
     padding:8px;
-    box-shadow:0px 0px 10px grey;
+    box-shadow:0px 0px 10px black;
     text-align:right;
 }
 
