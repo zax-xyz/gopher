@@ -1,9 +1,18 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin:75px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:6%;
+    margin-bottom:5%;
 }
 
-#button {
+#head_button1 {
+    text-decoration: none;
+    color:white;
+    transition: all 0.15s ease-in-out;
+}
+
+#head_button {
     margin-left:45px;
     text-decoration: none;
     color:white;
@@ -36,12 +45,13 @@ body {
     left:0px;
     width:100%;
     background:#333;
-    padding:20px;
+    padding-top:1.25%;
+    padding-bottom:1.25%;
     box-shadow:0px 0px 10px black;
 }
 
 #header_text{
-    margin-left:10px;
+    margin-left:10%;
 }
 
 #fixedfooter {
@@ -51,7 +61,8 @@ body {
     width:100%;
     color:#CCC;
     background:#333;
-    padding:8px;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
     box-shadow:0px 0px 10px black;
     text-align:right;
 }
@@ -62,5 +73,24 @@ body {
 }
 
 #footer_text {
-    margin-right:75px;
+    margin-right:10%;
+}
+
+@media screen and (max-width: 48em){
+    body {
+        margin-top:15%;
+        margin-bottom:15%;
+    }
+    #fixedheader {
+        padding-top:3%;
+        padding-bottom:3%;
+    }
+    #fixedfooter {
+        text-align:center;
+        padding-top:1%;
+        padding-bottom:1%;
+    }
+    #footer_text {
+        margin-right:0px;
+    }
 }
