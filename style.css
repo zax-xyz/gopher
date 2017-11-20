@@ -1,32 +1,26 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin-left:10%;
-    margin-right:10%;
-    margin-top:6%;
-    margin-bottom:5%;
-}
-
-#head_button1 {
-    text-decoration: none;
-    color:white;
-    transition: all 0.15s ease-in-out;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    margin-bottom: 5%;
 }
 
 #head_button {
-    margin-left:45px;
+    margin-right: 45px;
     text-decoration: none;
-    color:white;
+    color: white;
     transition: all 0.15s ease-in-out;
 }
 
-#button:hover {
-    text-shadow:0px 0px 5px rgba(255, 255, 255, 0.7);
+#head_button:hover {
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
 }
 
 #link {
     text-decoration: none;
-    color:#000000;
-    font-weight:bold;
+    color: #000000;
+    font-weight: bold;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     -webkit-transition: border 150ms ease;
     -moz-transition: border 150ms ease;
@@ -39,58 +33,64 @@ body {
     border-bottom: 1px solid;
 }
 
+#clip {
+    max-width: 100%;
+    width: 400px;
+    height: 225px;
+}
+
 #fixedheader {
-    position:fixed;
-    top:0px;
-    left:0px;
-    width:100%;
-    background:#333;
-    padding-top:1.25%;
-    padding-bottom:1.25%;
-    box-shadow:0px 0px 10px black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #333;
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+    box-shadow: 0px 0px 10px black;
 }
 
 #header_text{
-    margin-left:10%;
+    margin-left: 10%;
 }
 
 #fixedfooter {
-    position:fixed;
-    bottom:0px;
-    left:0px;
-    width:100%;
-    color:#CCC;
-    background:#333;
-    padding-top:0.5%;
-    padding-bottom:0.5%;
-    box-shadow:0px 0px 10px black;
-    text-align:right;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #CCC;
+    background: #333;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    box-shadow: 0px 0px 10px black;
+    text-align: right;
 }
 
 #copyleft {
-    display:inline-block;
-    transform:scaleX(-1);
+    display: inline-block;
+    transform: scaleX(-1);
 }
 
 #footer_text {
-    margin-right:10%;
+    margin-right: 10%;
 }
 
 @media screen and (max-width: 48em){
     body {
-        margin-top:15%;
-        margin-bottom:15%;
+        margin-top: 15%;
+        margin-bottom: 15%;
     }
     #fixedheader {
-        padding-top:3%;
-        padding-bottom:3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
     #fixedfooter {
-        text-align:center;
-        padding-top:1%;
-        padding-bottom:1%;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
     }
     #footer_text {
-        margin-right:0px;
+        margin-right: 0px;
     }
 }
