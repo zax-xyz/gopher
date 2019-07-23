@@ -3,6 +3,8 @@
 }
 
 body {
+  background: #121212;
+  color: white;
   font-family: Lato, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 4em auto;
   max-width: 1000px;
@@ -10,12 +12,12 @@ body {
 }
 
 a {
+  color: inherit;
   text-decoration: none;
 }
 
 main a {
   border-bottom: 1px solid transparent;
-  color: black;
   font-weight: bold;
   transition: border-bottom-color 150ms;
 }
@@ -42,7 +44,7 @@ main a:hover {
 }
 
 header, footer {
-  background: #333;
+  background: #232323;
   box-shadow: 0 0 10px black;
   color: white;
   left: 0;
@@ -68,7 +70,6 @@ header li {
 }
 
 header a {
-  color: white;
   padding: 0 20px;
   transition: text-shadow 150ms;
 }
