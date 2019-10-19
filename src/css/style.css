@@ -6,6 +6,7 @@ body {
   background: #121212;
   color: white;
   font-family: Lato, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4;
   margin: 4em auto;
   max-width: 1080px;
   padding: 0 35px;
@@ -53,6 +54,7 @@ header, footer {
 }
 
 header {
+  font-size: 1.03em;
   padding: .75em 1em;
   top: 0;
   z-index: 1;
